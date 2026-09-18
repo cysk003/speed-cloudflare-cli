@@ -23,3 +23,9 @@
 ```bash
 npx speed-cloudflare-cli
 ```
+
+# JSON output
+```bash
+npx speed-cloudflare-cli --json
+```
+Prints a single JSON object with server location, your IP, latency stats (min, max, average, median, jitter) and per-size download/upload speeds instead of the text output.
